@@ -1,0 +1,7 @@
+script
+  if ( [ JS2.A3 > 128 ] ) then
+    CMS.A1 = 256;
+  else
+    CMS.A1 = JS1.A3;
+  endif
+endScript
