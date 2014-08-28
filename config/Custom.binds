@@ -456,7 +456,7 @@
 	</HeadLookYawAxis>
 	<CamPitchAxis>
 		<Binding Device="068EC010" Key="Joy_YAxis" />
-		<Inverted Value="1" />
+		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</CamPitchAxis>
 	<CamPitchUp>
@@ -469,7 +469,7 @@
 	</CamPitchDown>
 	<CamYawAxis>
 		<Binding Device="068EC010" Key="Joy_XAxis" />
-		<Inverted Value="1" />
+		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</CamYawAxis>
 	<CamYawLeft>
