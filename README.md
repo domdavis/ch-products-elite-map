@@ -91,9 +91,11 @@ Please refer to the cheat sheet to identify the various button and hat names.
 Button | Action             | Shift Action
 ------ | ------------------ | ------------
 Btn 1  | Primary Fire       | Secondary Fire
-Btn 2  | Toggle Hard Points | Deploy Heat Sink
+Btn 2  | Toggle Hard Points | Fire Chaff
 Btn 3  | Reset Head Look    | Toggle Head Look
 Btn 4  | Shift              | Shift
+
+_Note:_ The `shift` action for `Button 2` is now _Fire Chaff_ not _Launch Heat Sink_. _Launch Heat Sink_ is now `Hat 3` of the [Pro Throttle][].
 
 ### POV Hat - Head Look
 
@@ -144,12 +146,12 @@ The `Thrust Forwards` and `Thrust Backwards` buttons are primarily used when doc
 
 Button | Action                | Shift Action
 ------ | --------------------- | ------------
-Btn 4  | UI Select             | `ESC` Key
-Btn 3  | Comms Panel           | Comms Panel
+Btn 4  | UI Select             | UI Back
+Btn 3  | Comms Panel           | Galaxy Map
 Btn 2  | Disable Flight Assist | Disable Flight Assist
 Btn 1  | Jettison All Cargo    | Jettison All Cargo
 
-Shift + Button 4 is provided to allow a 'back' button of sorts allowing for easy exit from the station menus and galaxy map. In game it will bring up the 'Pause Menu'.
+With the addition of `UI Back` the shifted action for button 4 has been mapped to this. Currently there is no longer any way to bring up the 'Pause Menu' in game so you'll need to use `ESC` on the keyboard. The `UI Back` mapping doesn't appear to work in the _Galaxy Map_, however, pressing `shift` `Button 3` again will exit the map.
 
 Button 2 will disable flight assist as long as it's held.
 
@@ -197,8 +199,8 @@ Selecting a direction a second time will also dismiss the currently displayed pa
 
 Direction | Action              | Shift Action
 --------- | ------------------- | ------------
-Right     | UI Left             | UI Left
-Left      | UI Right            | UI Right
+Left      | UI Left             | Deploy Heat Sink
+Right     | UI Right            | Use Shield Cell
 Up        | Toggle Ship Lights  | Toggle Rotational Correction
 Down      | Toggle Landing Gear | Toggle Cargo Scoop
 
@@ -267,7 +269,7 @@ The Axis `Slider 0` and `Slider 1` should be available to bind the yaw axis to, 
 
 ## Possible Future Enhancement
 
-This is version 4 of my Elite Dangerous map and the third I've published. Short of radical control changes or the introduction of several new controls before the final release it's unlikely the map will change much. That said a few ideas I have kicking about are:
+This is version 5 of my Elite Dangerous map and the fourth I've published. Short of radical control changes or the introduction of several new controls before the final release it's unlikely the map will change much. That said a few ideas I have kicking about are:
 
 * Map Throttle Hat 1 Up to a landing macro that will deploy landing gear and set 1 pip to engines (with probably 4 pips to systems and the last pip popped into weapons). At the moment I'm happy landing with 2 pips in engines but the Type 9 and the Anaconda may want slower approaches.
 * Map Throttle Hat 1 Down so that disables flight assist for as long as it's pressed. Since I generally boost with flight assist off this saves having to press two buttons.
@@ -276,7 +278,6 @@ This is version 4 of my Elite Dangerous map and the third I've published. Short 
 ## TODO
 
 * Add images to this README to make it easier for those not familiar with the [CH Products][] control software.
-* Get a YouTube video up of the setup being used in game.
 
 ## About The Author
 
@@ -289,6 +290,20 @@ I found the template I use for printing my joystick cheat sheets years ago on th
 ## Caveat Emptor
 
 With the exception of the PDF all the files contained in this project are text files so, in theory, nothing bad can happen to your system. That said, you're messing about with game config files so if you break anything, you get to keep both halves. If in doubt always back up.
+
+## Changelog
+
+### Version 5
+
+Improvements for the Gamma release:
+  
+  * Split Frameshift controls so Hyperdrive and Sepercruise are now seperate buttons
+  * Replaced binding to the `ESC` key to the provided `UI Back` control
+  * Bound _Galaxy Map_ to a button
+  * Bound _Use Shield Cell_ and _Fire Chaff_ to buttons. _Fire Chaff_ replaces _Fire Heat Sync_ on the [Fighterstick][] and now lives with _Use Shield Cell_ on the [Pro Throttle][]
+  * Minor tweaks to axis direction in the _Galaxy Map_
+  * Minor tweaks to the way headlook works with the mouse and bindings
+  * Added changelog :)
 
 
 [CH Products]: http://www.chproducts.com/
