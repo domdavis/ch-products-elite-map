@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <Root>
+	<KeyboardLayout>en-GB</KeyboardLayout>
 	<MouseXMode Value="" />
+	<MouseXDecay Value="1" />
 	<MouseYMode Value="" />
-	<MouseDecay Value="1" />
-	<MouseHeadlook Value="1" />
+	<MouseYDecay Value="1" />
 	<MouseSensitivity Value="0.20369379" />
+	<MouseDecayRate Value="4.00000000" />
 	<MouseDeadzone Value="0.04742857" />
 	<MouseLinearity Value="1.00000000" />
+	<MouseHeadlook Value="0" />
+	<MouseHeadlookInvert Value="0" />
+	<MouseHeadlookSensitivity Value="0.50000000" />
+	<MouseGUI Value="0" />
 	<YawAxis>
 		<Binding Device="{NoDevice}" Key="" />
 		<Inverted Value="1" />
@@ -230,7 +236,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</BackwardThrustButton_Landing>
 	<ToggleFlightAssist>
-		<Primary Device="068EC010" Key="Joy_20" />
+		<Primary Device="Keyboard" Key="Key_M" />
 		<Secondary Device="{NoDevice}" Key="" />
 		<ToggleOn Value="0" />
 	</ToggleFlightAssist>
@@ -238,8 +244,16 @@
 		<Primary Device="Keyboard" Key="Key_Tab" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</UseBoostJuice>
-	<Hyperspace>
+	<HyperSuperCombination>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</HyperSuperCombination>
+	<Supercruise>
 		<Primary Device="Keyboard" Key="Key_F" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</Supercruise>
+	<Hyperspace>
+		<Primary Device="Keyboard" Key="Key_J" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</Hyperspace>
 	<DisableRotationCorrectToggle>
@@ -307,7 +321,7 @@
 		<ToggleOn Value="1" />
 	</ToggleButtonUpInput>
 	<DeployHeatSink>
-		<Primary Device="068EC010" Key="Joy_4" />
+		<Primary Device="Keyboard" Key="Key_RightBracket" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</DeployHeatSink>
 	<ShipSpotLightToggle>
@@ -360,15 +374,19 @@
 		<Secondary Device="{NoDevice}" Key="" />
 		<ToggleOn Value="0" />
 	</MicrophoneMute>
+	<UseShieldCell>
+		<Primary Device="Keyboard" Key="Key_LeftBracket" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</UseShieldCell>
+	<FireChaffLauncher>
+		<Primary Device="068EC010" Key="Joy_4" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</FireChaffLauncher>
 	<UIFocusMode Value="Bindings_FocusModeHold" />
 	<UIFocus>
 		<Primary Device="068EC010" Key="Joy_25" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</UIFocus>
-	<Pause>
-		<Primary Device="Keyboard" Key="Key_P" />
-		<Secondary Device="{NoDevice}" Key="" />
-	</Pause>
 	<FocusLeftPanel>
 		<Primary Device="068EC010" Key="Joy_28" />
 		<Secondary Device="{NoDevice}" Key="" />
@@ -389,6 +407,19 @@
 		<Primary Device="068EC010" Key="Joy_19" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</FocusCommsPanel>
+	<GalaxyMapOpen>
+		<Primary Device="068EC010" Key="Joy_20" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</GalaxyMapOpen>
+	<HeadLookToggle>
+		<Primary Device="068EC010" Key="Joy_6" />
+		<Secondary Device="{NoDevice}" Key="" />
+		<ToggleOn Value="1" />
+	</HeadLookToggle>
+	<Pause>
+		<Primary Device="Keyboard" Key="Key_P" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</Pause>
 	<UI_Up>
 		<Primary Device="Keyboard" Key="Key_UpArrow" />
 		<Secondary Device="{NoDevice}" Key="" />
@@ -409,6 +440,12 @@
 		<Primary Device="Keyboard" Key="Key_Enter" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</UI_Select>
+	<UI_Back>
+		<Primary Device="Keyboard" Key="Key_3">
+			<Modifier Device="Keyboard" Key="Key_LeftShift" />
+		</Primary>
+		<Secondary Device="{NoDevice}" Key="" />
+	</UI_Back>
 	<CycleNextPanel>
 		<Primary Device="Keyboard" Key="Key_PageDown" />
 		<Secondary Device="{NoDevice}" Key="" />
@@ -417,11 +454,6 @@
 		<Primary Device="Keyboard" Key="Key_Delete" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</CyclePreviousPanel>
-	<HeadLookToggle>
-		<Primary Device="068EC010" Key="Joy_6" />
-		<Secondary Device="{NoDevice}" Key="" />
-		<ToggleOn Value="1" />
-	</HeadLookToggle>
 	<HeadlookDefault Value="0" />
 	<HeadlookMode Value="Bindings_HeadlookModeAccumulate" />
 	<HeadLookReset>
@@ -481,8 +513,8 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</CamYawRight>
 	<CamTranslateYAxis>
-		<Binding Device="068EC010" Key="Joy_RYAxis" />
-		<Inverted Value="1" />
+		<Binding Device="068EC010" Key="Joy_RZAxis" />
+		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</CamTranslateYAxis>
 	<CamTranslateForward>
@@ -494,7 +526,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</CamTranslateBackward>
 	<CamTranslateXAxis>
-		<Binding Device="068EC010" Key="Joy_RZAxis" />
+		<Binding Device="068EC010" Key="Joy_RYAxis" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</CamTranslateXAxis>
