@@ -5,13 +5,14 @@
 	<MouseXDecay Value="1" />
 	<MouseYMode Value="" />
 	<MouseYDecay Value="1" />
+	<MouseReset>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</MouseReset>
 	<MouseSensitivity Value="0.20369379" />
 	<MouseDecayRate Value="4.00000000" />
 	<MouseDeadzone Value="0.04742857" />
 	<MouseLinearity Value="1.00000000" />
-	<MouseHeadlook Value="0" />
-	<MouseHeadlookInvert Value="0" />
-	<MouseHeadlookSensitivity Value="0.50000000" />
 	<MouseGUI Value="0" />
 	<YawAxis>
 		<Binding Device="{NoDevice}" Key="" />
@@ -285,6 +286,26 @@
 		<Primary Device="068EC010" Key="Joy_10" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</CyclePreviousHostileTarget>
+	<TargetWingman0>
+		<Primary Device="Keyboard" Key="Key_1" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</TargetWingman0>
+	<TargetWingman1>
+		<Primary Device="Keyboard" Key="Key_2" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</TargetWingman1>
+	<TargetWingman2>
+		<Primary Device="Keyboard" Key="Key_3" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</TargetWingman2>
+	<SelectTargetsTarget>
+		<Primary Device="068EC010" Key="Joy_22" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</SelectTargetsTarget>
+	<WingNavLock>
+		<Primary Device="Keyboard" Key="Key_4" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</WingNavLock>
 	<CycleNextSubsystem>
 		<Primary Device="068EC010" Key="Joy_11" />
 		<Secondary Device="{NoDevice}" Key="" />
@@ -294,6 +315,10 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</CyclePreviousSubsystem>
 	<GunsightSystem />
+	<TargetNextRouteSystem>
+		<Primary Device="068EC010" Key="Joy_23" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</TargetNextRouteSystem>
 	<PrimaryFire>
 		<Primary Device="068EC010" Key="Joy_1" />
 		<Secondary Device="{NoDevice}" Key="" />
@@ -328,6 +353,11 @@
 		<Primary Device="Keyboard" Key="Key_L" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</ShipSpotLightToggle>
+	<RadarRangeAxis>
+		<Binding Device="{NoDevice}" Key="" />
+		<Inverted Value="0" />
+		<Deadzone Value="0.00000000" />
+	</RadarRangeAxis>
 	<RadarIncreaseRange>
 		<Primary Device="068EC010" Key="Joy_32" />
 		<Secondary Device="{NoDevice}" Key="" />
@@ -379,9 +409,13 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</UseShieldCell>
 	<FireChaffLauncher>
-		<Primary Device="068EC010" Key="Joy_4" />
+		<Primary Device="068EC010" Key="Joy_6" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</FireChaffLauncher>
+	<PhotoCameraToggle>
+		<Primary Device="068EC010" Key="Joy_24" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</PhotoCameraToggle>
 	<UIFocusMode Value="Bindings_FocusModeHold" />
 	<UIFocus>
 		<Primary Device="068EC010" Key="Joy_25" />
@@ -404,15 +438,16 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</QuickCommsPanel>
 	<FocusCommsPanel>
-		<Primary Device="068EC010" Key="Joy_19" />
+		<Primary Device="068EC010" Key="Joy_21" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</FocusCommsPanel>
+	<FocusOnTextEntryField Value="0" />
 	<GalaxyMapOpen>
-		<Primary Device="068EC010" Key="Joy_20" />
+		<Primary Device="Keyboard" Key="Key_0" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</GalaxyMapOpen>
 	<HeadLookToggle>
-		<Primary Device="068EC010" Key="Joy_6" />
+		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
 		<ToggleOn Value="1" />
 	</HeadLookToggle>
@@ -454,10 +489,16 @@
 		<Primary Device="Keyboard" Key="Key_Delete" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</CyclePreviousPanel>
-	<HeadlookDefault Value="0" />
+	<MouseHeadlook Value="0" />
+	<MouseHeadlookInvert Value="0" />
+	<MouseHeadlookSensitivity Value="0.50000000" />
+	<HeadlookDefault Value="1" />
+	<HeadlookIncrement Value="0.00000000" />
 	<HeadlookMode Value="Bindings_HeadlookModeAccumulate" />
+	<HeadlookResetOnToggle Value="1" />
+	<HeadlookSensitivity Value="1.00000000" />
 	<HeadLookReset>
-		<Primary Device="068EC010" Key="Joy_5" />
+		<Primary Device="068EC010" Key="Joy_4" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</HeadLookReset>
 	<HeadLookPitchUp>
