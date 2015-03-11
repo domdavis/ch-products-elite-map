@@ -4,4 +4,23 @@ script
   else
     CMS.A1 = JS1.A3;
   endif
+  
+  if ( JS2.B1 and not JS2.B4 ) then
+    CMS.B1 = true;
+  endif
+
+  if ( JS2.B1 and JS2.B4 ) then
+    CMS.B2 = true;
+  endif
+  
+  if ( JS2.B3 and not JS2.b4 ) then
+    CMS.B1 = true;
+    CMS.B2 = true;
+  endif
+  
+   if ( not JS2.B1 and not JS2.B3 ) then
+    CMS.B1 = false;
+    CMS.B2 = false;
+  endif
+  
 endScript
