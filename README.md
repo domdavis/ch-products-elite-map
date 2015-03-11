@@ -316,6 +316,10 @@ With the exception of the PDF all the files contained in this project are text f
 
 ## Changelog
 
+### Version 1.2.1
+
+  * Remove mouse axis from head look so mouse head look off is now honoured
+
 ### Version 1.2.0
 
 Improvements for the 1.2 release:
