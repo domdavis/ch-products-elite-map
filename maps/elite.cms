@@ -57,7 +57,7 @@ script
   %define throttle.pov.down JS1.B27
   %define throttle.pov.left JS1.B29
 
-  CMS.A1 = stick.x.axis;
+//CMS.A1 = stick.x.axis;
   CMS.A2 = stick.y.axis;
   CMS.A3 = stick.z.axis;
 
@@ -152,7 +152,7 @@ script
 
   CMS.B69 = throttle.hat1.right and not alt;
 //CMS.B70 = throttle.hat1.right and shift and not alt;
-  CMS.B71 = throttle.hat1.right and not shift and alt;
+//CMS.B71 = throttle.hat1.right and not shift and alt;
   CMS.B72 = throttle.hat1.right and shift and alt;
 
   CMS.B73 = throttle.hat1.down and not shift and not alt;
@@ -226,11 +226,20 @@ script
 //CMS.B128 = throttle.pov.left and shift and alt;
 
   toggle(D1) = throttle.hat1.left and not shift and alt;
+  toggle(D2) = throttle.hat1.right and not shift and alt;
 
   if (D1) then
     CMS.A19 = 256;
   else
     CMS.A19 = throttle.z.axis;
   endif
-
+  
+  if (D2) then
+    CMS.A1 = 128;
+    CMS.A4 = stick.x.axis;
+  else
+    CMS.A1 = stick.x.axis;
+    CMS.A4 = 128;
+  endif
+  
 endscript

@@ -359,7 +359,7 @@ Direction: `Right`        | Action
 ------------------------- | ------
 `Right`                   | _Next Fire Group_
 `shift` + `Right`         | _Next Fire Group_<sup>[3]</sup>
-`alt` + `Right`           | _Yaw/Roll Button_<sup>[5]</sup>
+`alt` + `Right`           | _Toggle Roll/Yaw_<sup>[5]</sup>
 `shift` + `alt` + `Right` | _Show Network Details_
 
 Notes:
@@ -367,7 +367,7 @@ Notes:
 > <sup>[2]</sup> Previously `Throttle Hat 3 Up`<br/>
 > <sup>[3]</sup> _Scanner Range_ is now `Stick z`<br/>
 > <sup>[4]</sup> Previously `Stick z`<br/>
-> <sup>[5]</sup> Makes `Stick x` control _Yaw_ while pressed<br/>
+> <sup>[5]</sup> Toggles `Stick x` between _Roll_ and _Yaw_ <br/>
 
 #### UI Panels/Maps (`Hat 2`)
 
