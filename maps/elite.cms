@@ -225,7 +225,7 @@ script
 //CMS.B127 = throttle.pov.left and not shift and alt;
 //CMS.B128 = throttle.pov.left and shift and alt;
 
-  toggle(D1) = throttle.hat1.right and not shift and alt;
+  toggle(D1) = throttle.hat1.left and not shift and alt;
 
   if (D1) then
     CMS.A19 = 256;
