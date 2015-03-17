@@ -15,8 +15,8 @@
 	<MouseLinearity Value="1.00000000" />
 	<MouseGUI Value="0" />
 	<YawAxis>
-		<Binding Device="{NoDevice}" Key="" />
-		<Inverted Value="1" />
+		<Binding Device="068EC010" Key="Joy_UAxis" />
+		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</YawAxis>
 	<YawLeftButton>
