@@ -170,7 +170,7 @@ script
 //CMS.B83 = throttle.hat2.up and not shift and alt;
 //CMS.B84 = throttle.hat2.up and shift and alt;
 
-  CMS.B85 = throttle.hat2.right and not alt;
+  CMS.B85 = throttle.hat2.right and not shift and not alt;
   CMS.B86 = throttle.hat2.right and (shift or alt);
 //CMS.B87 = throttle.hat2.right and not shift and alt;
 //CMS.B88 = throttle.hat2.right and shift and alt;
