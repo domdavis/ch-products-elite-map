@@ -43,7 +43,7 @@ Once loaded click the `Download` button to enable the map.
 ### Game Configuration
 
 Within the extracted zip file under the `config` folder you'll find two files called `Custom.binds` and `StartPreset.start`. Copy `Custom.binds` to
-`C:\Users\USER\AppData\Local\Frontier Developments\Elite Dangerous\Options\Bindings\Custom.binds`. Change `USER` to be your username. `AppData` is a hidden folder so you’ll need to enable _Show Hidden Files_ to see it. This file works for both the _full_ and _redux_ maps.
+`%LOCALAPPDATA%\Frontier Developments\Elite Dangerous\Options\Bindings\Custom.binds`. `%LOCALAPPDATA%` points to the hidden `AppData\Local` folder for _your_ Windows account. The `Custom.binds` file works for both the _full_ and _redux_ maps.
 
 You can optionally copy `StartPreset.start` to the same folder. All this does is tell the game to use the custom bindings by default. If you don't copy the file you'll need select the custom layout from within the game under the input settings.
 
