@@ -190,8 +190,8 @@ script
 //CMS.B99 = throttle.hat3.up and not shift and alt;
 //CMS.B100 = throttle.hat3.up and shift and alt;
 
-  CMS.B101 = throttle.hat3.right;
-//CMS.B102 = throttle.hat3.right and shift and not alt;
+  CMS.B101 = throttle.hat3.right and not shift and not alt;
+  CMS.B102 = throttle.hat3.right and (shift or alt);
 //CMS.B103 = throttle.hat3.right and not shift and alt;
 //CMS.B104 = throttle.hat3.right and shift and alt;
 

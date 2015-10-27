@@ -1,4 +1,4 @@
-# Elite: Dangerous - Full HOTAS layout (version 2.1.0)
+# Elite: Dangerous - Full HOTAS layout (version 2.1.1)
 
 This map introduces a new modifier button (the `alt` button), tightens up much of the grouping that was set in previous versions, and moves some button assignments around to facilitate this. 
 
@@ -319,10 +319,10 @@ Notes:
 
 #### Wingmen (`Hat 3`)
 
-Direction | Action                           | Modified Action<sup>[1]</sup>
+Direction | Action                           | Modified Action
 --------- | -------------------------------- | -----------------------------
-`Left`    | _Select Wingman 1_<sup>[2]</sup> | _Select Wingman 1_
-`Up`      | _Select Wingman 2_<sup>[3]</sup> | _Wingman Nav-Lock_<sup>[5]</sup>
+`Left`    | _Select Wingman 1_<sup>[2]</sup> | _Select Wingman 1_<sup>[1]</sup>
+`Up`      | _Select Wingman 2_<sup>[3]</sup> | _Wingman Nav-Lock_<sup>[1], [5]</sup>
 `Right`   | _Select Wingman 3_<sup>[4]</sup> | _Select Wingman 3_
 
 Notes:
@@ -343,6 +343,15 @@ Button                   | Action
 
 Notes:
 > <sup>[1]</sup> Previously `Throttle Btn 1`<br/>
+
+### CQC (`Hat 3`)
+
+Button               | Action
+-------------------- | ------
+`modifier` + `Right` | _Show CQC Scores_<sup>[1]</sup>
+
+Notes: 
+> <sup>1</sup> Works with `shift`, `alt`, and `alt` + `shift`. Only works in CQC.</br>
 
 ### Mouse
 
