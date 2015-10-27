@@ -1,4 +1,4 @@
-# Elite: Dangerous - Full HOTAS layout (version 2.1.0)
+# Elite: Dangerous - Full HOTAS layout (version 2.1.1)
 
 This map is a simplified version of the _full_ map and utilises only a single `shift` button. Notes are included below to indicate changes from previous maps. It is also recommended you study the [Layout][pdf] before flying with this map. 
 
@@ -137,7 +137,7 @@ Notes:
 > <sup>[1]</sup> Will disable flight assist as long as it's held<br/>
 > <sup>[2]</sup> _Galaxy Map_ is now `shift` + `Throttle Hat 2 Left`<br/>
 
-#### Menu Navigation (`POV Hat`)
+#### Menu Navigation and CQC (`POV Hat`)
 
 > **Note:** Only 4 of the possible 8 directions on the throttle POV hat have been mapped. The 4 unmapped directions are simply ignored.
 
@@ -146,18 +146,19 @@ Notes:
 Direction | Action                  | Modified Action<sup>[1]</sup>
 --------- | ----------------------- | -----------------------------
 `Up`      | _UI Panel Up_           | _UI Panel Up_<sup>[2]</sup>
-`Down`    | _UI Panel Down_         | _UI Panel Down_<sup>[3]</sup>
-`Left`    | _UI Panel Previous Tab_ | _UI Panel Left_<sup>[4], [5]</sup>
-`Right`   | _UI Panel Next Tab_     | _UI Panel Right_<sup>[6], [7]</sup>
+`Down`    | _UI Panel Down_         | _Show CQC scores_<sup>[3], [4]</sup>
+`Left`    | _UI Panel Previous Tab_ | _UI Panel Left_<sup>[5], [6]</sup>
+`Right`   | _UI Panel Next Tab_     | _UI Panel Right_<sup>[7], [8]</sup>
 
 Notes:
 > <sup>[1]</sup> Actions work with `shift`, `alt`, and `shift` + `alt`<br/>
 > <sup>[2]</sup> _Select Wingman 2_ is now `Throttle Hat 3 Up`<br/>
 > <sup>[3]</sup> _Wingman Nav-Lock_ is now `shift` + `Throttle Hat 3 Up`<br/>
-> <sup>[4]</sup> _Select Wingman 1_ is now `Throttle Hat 3 Left`<br/>
-> <sup>[5]</sup> Previously `Throttle Hat 3 Left`<br/>
-> <sup>[6]</sup> _Select Wingman 3_ is now `Throttle Hat 3 Right`<br/>
-> <sup>[7]</sup> Previously `Throttle Hat 3 Right`<br/>
+> <sup>[4]</sup> Only works in CQC<br/>
+> <sup>[5]</sup> _Select Wingman 1_ is now `Throttle Hat 3 Left`<br/>
+> <sup>[6]</sup> Previously `Throttle Hat 3 Left`<br/>
+> <sup>[7]</sup> _Select Wingman 3_ is now `Throttle Hat 3 Right`<br/>
+> <sup>[8]</sup> Previously `Throttle Hat 3 Right`<br/>
 
 #### Engine Control and Misc Controls (`Hat 1`)
 

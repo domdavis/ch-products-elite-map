@@ -73,7 +73,7 @@ Modifier buttons are referred to as `shift` (`Stick Btn 4`) and `alt` (`Throttle
 
 ## Adding Rudder Pedals
 
-I no longer own the CH Products [Pro Pedals][], however, I have had experience using them. You can add them to these maps by clicking the `Add Device` button and selecting the pedals from the list. Order is important in Joystick maps so ensure they are the **3rd** tab, otherwise the CMS script will need to be updated with the new position for the Throttle.
+I no longer own the CH Products [Pro Pedals][], however, I have had experience using them. You can add them to these maps by clicking the `Add Device` button and selecting the pedals from the list. Order is important in Joystick maps so ensure they are the 3rd device (**4th** tab), otherwise the CMS script will need to be updated with the new position for the Throttle.
 
 > **Note:** If you want to use CMS scripts for your pedals and you're using the _full_ map please see [these notes][notes].
 
@@ -101,6 +101,10 @@ I found the template I use for printing my joystick cheat sheets years ago on th
 With the exception of the PDF all the files contained in this project are text files so, in theory, nothing bad can happen to your system. That said, you're messing about with game config files so if you break anything, you get to keep both halves. If in doubt always back up.
 
 ## Changelog
+
+### Version 2.1.1
+
+  * Added binding to show CQC scores
 
 ### Version 2.1.0
 
