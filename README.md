@@ -10,6 +10,8 @@ The main map is my own personal configuration that I've put together while playi
 
 This version of the map is designed for use with Elite: Dangerous 1.2.03 and above. It's split into two parts: _full_ and _redux_. Both maps share the same in game config, _redux_ just doesn't make use of all of the available mappings.
 
+**Note:** If are playing the Elite: Dangerous 2 beta you need a later version of this map that binds all the vehicle controls. You can currently find this [here](https://github.com/domdavis/ch-products-elite-map/tree/3.0.0). 
+
 ### Previous versions
 
 Previous versions of the joystick maps, including the relevant README.md and layout guides, can be found [here][previous]. Major version number changes indicate complete overhauls of the map.
