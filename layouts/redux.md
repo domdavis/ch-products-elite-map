@@ -1,10 +1,14 @@
-# Elite: Dangerous - Full HOTAS layout (version 2.1.1)
+# Elite: Dangerous - Redux HOTAS layout (version 3.0.0) Beta
 
-This map is a simplified version of the _full_ map and utilises only a single `shift` button. Notes are included below to indicate changes from previous maps. It is also recommended you study the [Layout][pdf] before flying with this map. 
+This map is a simplified version of the _full_ map and utilises only a single `shift` button. It is recommended you study the [Layout][pdf] before flying with this map. 
 
 > **Note:** This map uses CMS scripts to maintain compatibility with the _full_ map. If this was built as a stand alone map it could be mapped purely in the UI without scripting.
 
-## Axis Layout
+## Mouse
+
+By default mouse head-look is disabled. On screens where the mouse can be used (e.g. station interface and galaxy may) it controls the cursor.
+
+## Axis Layout (Flight)
 
 ### Fighterstick
 
@@ -15,7 +19,7 @@ Axis      | Action
 `Stick z` | _Scanner Range_<sup>[1]</sup>
 
 Notes:
-> <sup>[1]</sup> Previously `Stick z` disabled and enabled `Throttle z`. `Throttle z` cannot be disabled in this map.
+> <sup>[1]</sup> `Throttle z` cannot be disabled in this map.
 
 ### Pro Throttle
 
@@ -29,10 +33,25 @@ Notes:
 > <sup>[1]</sup> Reverse thrust (0% to -100%) using the `Throttle` can be achieved by holding `Throttle Hat 1 Up`.
 
 > <sup>[2]</sup> `Stick hat 3 Forward` and `Stick Hat 3 Back` are mapped to _Thrust Forwards_ and _Thrust Backwards_ respectively. These override the `Throttle` setting while pressed and allow for digital control when docking, 'blipping' the throttle, and emergency reverse without touching the throttle.
+ 
+## Axis Layout (Driving)
 
-### Mouse
+### Fighterstick
 
-By default mouse head-look is disabled. On screens where the mouse can be used (e.g. station interface and galaxy may) it controls the cursor.
+Axis      | Action (Driving)  | Action (Turret)
+--------- | ----------------- | ---------------
+`Stick x` | _Turn left/right_ | _Rotate left/right_
+`Stick y` | _Pitch up/down_   | _Pitch up/down_
+`Stick z` | _Scanner Range_   | _Scanner Range_
+
+### Pro Throttle
+
+Axis         | Action
+------------ | ------
+`Throttle z` | _Throttle_ (0%-100%)<sup>[1]</sup>
+
+Notes:
+> <sup>[1]</sup> `Stick hat 3 Forward` and `Stick Hat 3 Back` are mapped to _Accelerate and _Deccelerate_ respectively. These override the `Throttle` setting while pressed and allow for digital control when docking, 'blipping' the throttle, and emergency reverse without touching the throttle.
 
 ## Button Layout
 
@@ -44,7 +63,7 @@ Button           | Modifier
 
 ### Fighterstick
 
-#### Buttons
+#### Buttons (Flight)
 
 Button                | Action                     | `shift` Action
 --------------------- | -------------------------- | --------------
@@ -52,6 +71,12 @@ Button                | Action                     | `shift` Action
 `Btn 2`               | _Toggle Hard Points_       | _Toggle Silent Running_
 `Btn 3`<sup>[1]</sup> | _Primary + Secondary Fire_ | _Primary + Secondary Fire_
 
+#### Buttons (Driving)
+
+Button  | Action
+------- | ------
+`Btn 1` | _Fire vehicle weapon_
+`Btn 2` | _Toggle turret camera_
 
 Notes:
 > <sup>[1]</sup> Unlike the _full_ map, countermeasures are on the `Throttle`
@@ -108,12 +133,12 @@ Direction | Action                         | `shift` Action
 
 #### Fine ship control (`Hat 3`)
 
-Direction   | Action<sup>[1]</sup> 
------------ | --------------------
-`Forwards`  | _Thrust Forwards_<sup>[2]</sup>
-`Backwards` | _Thrust Backwards_<sup>[2],[3]</sup>
-`Left`      | _Yaw Left_
-`Right`     | _Yaw Right_
+Direction   | Action Flying<sup>[1]</sup>          | Action Driving<sup>[1]</sup>
+----------- | ------------------------------------ | ----------------------------
+`Forwards`  | _Thrust Forwards_<sup>[2]</sup>      | _Accelerate_<sup>[4]</sup>
+`Backwards` | _Thrust Backwards_<sup>[2],[3]</sup> | _Decelerate_<sup>[4]</sup>
+`Left`      | _Yaw Left_                           | _Turn left_
+`Right`     | _Yaw Right_                          | _Turn right_
 
 Notes:
 > <sup>[1]</sup> These buttons always have the same action, regardless of modifier button.
@@ -122,20 +147,21 @@ Notes:
 
 > <sup>[3]</sup> _Thrust Backwards_ with _Flight Assist Off_ can result in harder braking than simply zeroing the throttle.
 
+> <sup>[4]</sup> _Accelerate_ and _Decelerate_ override the `Throttle` setting while pressed and allow for digital control while driving. 
+
 ### Pro Throttle
 
 #### Buttons
 
-Button  | Action                                | `shift` Action
-------- | ------------------------------------- | --------------
-`Btn 1` | _Jettison All Cargo_                  | _Jettison All Cargo_ 
-`Btn 2` | _Disable Flight Assist_<sup>[1]</sup> | _Disable Flight Assist_ 
-`Btn 3` | _Fire Chaff_<sup>[2]</sup>            | `ESC`
-`Btn 4` | _UI Select_                           | _UI Back_
+Button  | Action                                      | `shift` Action
+------- | -------------------------------------       | --------------
+`Btn 1` | _Jettison All Cargo_                        | _Jettison All Cargo_ 
+`Btn 2` | _Disable Flight/Drive Assist_<sup>[1]</sup> | _Disable Flight/Drive Assist_ 
+`Btn 3` | _Fire Chaff_                                | `ESC`
+`Btn 4` | _UI Select_                                 | _UI Back_
 
 Notes:
-> <sup>[1]</sup> Will disable flight assist as long as it's held<br/>
-> <sup>[2]</sup> _Galaxy Map_ is now `shift` + `Throttle Hat 2 Left`<br/>
+> <sup>[1]</sup> Will disable flight/drive assist as long as it's held<br/>
 
 #### Menu Navigation and CQC (`POV Hat`)
 
@@ -145,33 +171,31 @@ Notes:
 
 Direction | Action                  | Modified Action<sup>[1]</sup>
 --------- | ----------------------- | -----------------------------
-`Up`      | _UI Panel Up_           | _UI Panel Up_<sup>[2]</sup>
-`Down`    | _UI Panel Down_         | _Show CQC scores_<sup>[3], [4]</sup>
-`Left`    | _UI Panel Previous Tab_ | _UI Panel Left_<sup>[5], [6]</sup>
-`Right`   | _UI Panel Next Tab_     | _UI Panel Right_<sup>[7], [8]</sup>
+`Up`      | _UI Panel Up_           | _UI Panel Up_
+`Down`    | _UI Panel Down_         | _Show CQC scores_<sup>[2]</sup>
+`Left`    | _UI Panel Previous Tab_ | _UI Panel Left_
+`Right`   | _UI Panel Next Tab_     | _UI Panel Right_
 
 Notes:
 > <sup>[1]</sup> Actions work with `shift`, `alt`, and `shift` + `alt`<br/>
-> <sup>[2]</sup> _Select Wingman 2_ is now `Throttle Hat 3 Up`<br/>
-> <sup>[3]</sup> _Wingman Nav-Lock_ is now `shift` + `Throttle Hat 3 Up`<br/>
-> <sup>[4]</sup> Only works in CQC<br/>
-> <sup>[5]</sup> _Select Wingman 1_ is now `Throttle Hat 3 Left`<br/>
-> <sup>[6]</sup> Previously `Throttle Hat 3 Left`<br/>
-> <sup>[7]</sup> _Select Wingman 3_ is now `Throttle Hat 3 Right`<br/>
-> <sup>[8]</sup> Previously `Throttle Hat 3 Right`<br/>
+> <sup>[2]</sup> Only works in CQC<br/>
 
-#### Engine Control and Misc Controls (`Hat 1`)
+#### Engine Control and Misc Controls - Flying (`Hat 1`)
 
 Direction | Action                | `shift` Action
 --------- | --------------------- | --------------
 `Up`      | _Reverse Throttle_    | _Toggle Hyperdrive_
 `Down`    | _Boost_               | _Toggle Supercruise_
-`Left`    | _Previous Fire Group_ | _Deploy Heat Sink_<sup>[1]</sup>
-`Right`   | _Next Fire Group_     | _Use Shield Cell_<sup>[2]</sup>
+`Left`    | _Previous Fire Group_ | _Deploy Heat Sink_
+`Right`   | _Next Fire Group_     | _Use Shield Cell_
 
-Notes:
-> <sup>[1]</sup> Previously `shift` + `Throttle Hat 3 Left`<br/>
-> <sup>[2]</sup> Previously `shift` + `Throttle Hat 3 Right`<br/>
+#### Engine Control and Misc Controls - Driving (`Hat 1`)
+
+Direction | Action
+--------- | ------
+`Up`      | _Reverse Throttle_
+`Down`    | _Handbrake_
+
 
 #### UI Panels/Maps (`Hat 2`)
 
@@ -183,27 +207,29 @@ Direction | Action          | `shift` Action
 --------- | ----------------| -----------------------------
 `Up`      | _UI Focus Mode_ | _Comms Panel_<sup>[1]</sup>
 `Down`    | _Radar Panel_   | _Next system In Route_
-`Left`    | _Target Panel_  | _Galaxy Map_<sup>[2]</sup>
+`Left`    | _Target Panel_  | _Galaxy Map_
 `Right`   | _Systems Panel_ | _System Map_
 
 Notes:
 > <sup>[1]</sup> By default the text entry box is not selected. Select it using `Btn 4`. Deselect it by using `shift` + `alt` + `Btn 3`<br/>
-> <sup>[2]</sup> Previously `Throttle Btn 3` (and `shift` + `Throttle Btn 3` prior to that)<br/>
 
-#### Wingmen, Landing Gear and Cargo (`Hat 3`)
+#### Wingmen, Landing Gear and Cargo - Flying (`Hat 3`)
 
-Direction | Action                           | `shift` Action
---------- | -------------------------------- | -----------------------------
-`Left`    | _Select Wingman 1_<sup>[1]</sup> | _Select Wingman 1_
-`Up`      | _Select Wingman 2_<sup>[2]</sup> | _Wingman Nav-Lock_<sup>[4]</sup>
-`Right`   | _Select Wingman 3_<sup>[3]</sup> | _Select Wingman 3_
-`Down`    | _Toggle Landing Gear_            | _Toggle Cargo Scoop_
+Direction | Action                | `shift` Action
+--------- | --------------------- | -----------------------------
+`Left`    | _Select Wingman 1_    | _Select Wingman 1_
+`Up`      | _Select Wingman 2_    | _Wingman Nav-Lock_
+`Right`   | _Select Wingman 3_    | _Select Wingman 3_
+`Down`    | _Toggle Landing Gear_ | _Toggle Cargo Scoop_
 
-Notes:
-> <sup>[1]</sup> Previously `shift` + `Throttle POV Left`<br/>
-> <sup>[2]</sup> Previously `shift` + `Throttle POV Up`<br/>
-> <sup>[3]</sup> Previously `shift` + `Throttle POV Right`<br/>
-> <sup>[4]</sup> PReviously `shift` + `Throttle POV Down`<br/>
+#### Misc controls - Driving (`Hat 3`)
+
+Direction        | Action
+---------------- | ------
+`shift` + `Left` | _Toggle headlights_
+`Up`             | _Vertical Thrust_
+`Right`          | _Datalink Scanner_
+`shift` + `Down` | _Toggle Cargo Scoop_
 
 ### Mouse
 
@@ -215,7 +241,7 @@ Pressing `SPACE` brings up Quick Comms, i.e. a chat entry to the current target.
 
 ## Navigating The UI
 
-### In Flight
+### In Cockpit
 
 UI Navigation is a little counter intuitive if you simply go by button assignments. In flight you generally use `Throttle Hat 2` and either `Left` or `Right` to select the relevant UI Panel. `Throttle POV` is then used to navigate between tabs and up and down within tabs with `Throttle Btn 4` used to select elements. `shift` + `Throttle POV Left` and `Right` can then be used to alter values that can be altered (for example system priority) and to move between sub-panels (e.g. the _Location_ list and map buttons on the _Navigation_ tab, and _Fire Groups_ in the _Fire Groups_ tab).
 

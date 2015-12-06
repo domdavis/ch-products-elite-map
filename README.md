@@ -1,4 +1,6 @@
-# CH Products Joystick Map for Elite: Dangerous
+# CH Products Joystick Map for Elite: Dangerous 2.0 Beta
+
+> **Note:** This map is for the Elite: Dangerous 2.0 Beta only and is itself in beta. For the release version of the maps please go [here][].
 
 Joystick maps and game configuration files for the [CH Products][] [Fighterstick][] and [Pro Throttle][] HOTAS in [Elite: Dangerous][].
 
@@ -8,7 +10,7 @@ The main map is my own personal configuration that I've put together while playi
 
 ### Version
 
-This version of the map is designed for use with Elite: Dangerous 1.2.03 and above. It's split into two parts: _full_ and _redux_. Both maps share the same in game config, _redux_ just doesn't make use of all of the available mappings.
+This version of the map is designed for use with Elite: Dangerous 2 (beta 3) and above. It's split into two parts: _full_ and _redux_. Both maps share the same in game config, _redux_ just doesn't make use of all of the available mappings.
 
 ### Previous versions
 
@@ -19,7 +21,7 @@ Previous versions of the joystick maps, including the relevant README.md and lay
 * [CH Products][] [Fighterstick][]
 * [CH Products][] [Pro Throttle][]
 * [CH Products][] [Control Manager][] software
-* [Elite: Dangerous][] 1.2.03 or above
+* [Elite: Dangerous][] 2 (beta 3) or above
 * Optional: PDF viewer
 
 ## Installation
@@ -42,8 +44,8 @@ Once loaded click the `Download` button to enable the map.
 
 ### Game Configuration
 
-Within the extracted zip file under the `config` folder you'll find two files called `Custom.binds` and `StartPreset.start`. Copy `Custom.binds` to
-`%LOCALAPPDATA%\Frontier Developments\Elite Dangerous\Options\Bindings\Custom.binds`. `%LOCALAPPDATA%` points to the hidden `AppData\Local` folder for _your_ Windows account. The `Custom.binds` file works for both the _full_ and _redux_ maps.
+Within the extracted zip file under the `config` folder you'll find two files called `Custom.binds` and `StartPreset.start`. Copy `Custom.1.8.binds` to
+`%LOCALAPPDATA%\Frontier Developments\Elite Dangerous\Options\Bindings\Custom.1.8.binds`. `%LOCALAPPDATA%` points to the hidden `AppData\Local` folder for _your_ Windows account. The `Custom.1.8.binds` file works for both the _full_ and _redux_ maps.
 
 You can optionally copy `StartPreset.start` to the same folder. All this does is tell the game to use the custom bindings by default. If you don't copy the file you'll need select the custom layout from within the game under the input settings.
 
@@ -101,6 +103,10 @@ I found the template I use for printing my joystick cheat sheets years ago on th
 With the exception of the PDF all the files contained in this project are text files so, in theory, nothing bad can happen to your system. That said, you're messing about with game config files so if you break anything, you get to keep both halves. If in doubt always back up.
 
 ## Changelog
+
+### Version 3.0.0
+
+  * Added bindings for driving and turret operations
 
 ### Version 2.1.1
 
@@ -167,6 +173,7 @@ Improvements for the Gamma release:
   * Minor tweaks to the way headlook works with the mouse and bindings
   * Added changelog :)
 
+[here]: https://github.com/domdavis/ch-products-elite-map
 [full-layout]: layouts/full.pdf
 [redux-layout]: layouts/redux.pdf
 [full]: layouts/full.md
