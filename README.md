@@ -183,7 +183,7 @@ Improvements for the Gamma release:
 [Fighterstick]: http://www.chproducts.com/Fighterstick-v13-d-722.html
 [Pro Throttle]: http://www.chproducts.com/Pro-Throttle-v13-d-719.html
 [Elite: Dangerous]: http://www.elitedangerous.com/
-[zip file]: https://github.com/domdavis/ch-products-elite-map/archive/master.zip
+[zip file]: https://github.com/domdavis/ch-products-elite-map/archive/3.0.0.zip
 [Control Manager]: http://www.ch-hangar.com/forum/index.php/files/file/49-control-manager/
 [Pro Pedals]: http://www.chproducts.com/Pro-Pedals-v13-d-716.html
 [Cmdr Davis]: https://twitter.com/cmdr_davis 
