@@ -1,0 +1,10 @@
+# Declare files that will always have MSDOS line endings on checkout.
+*.binds text eol=crlf
+*.start text eol=crlf
+*.cms text eol=crlf
+*.map text eol=crlf
+
+# Declare files that are truly binary and should not be modified.
+*.png binary
+*.jpg binary
+*.pdf binary
