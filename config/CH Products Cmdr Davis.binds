@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<Root PresetName="Custom" MajorVersion="1" MinorVersion="8">
+<Root PresetName="CH Products Cmdr Davis" MajorVersion="1" MinorVersion="8">
 	<KeyboardLayout>en-GB</KeyboardLayout>
 	<LockedDevice>{NoDevice}</LockedDevice>
 	<MouseXMode Value="" />
