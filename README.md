@@ -92,7 +92,14 @@ the result please link back to this repository. You'll need to contact me if you
 want to use the images commercially.
 
 The map has been completely rebuilt to exclusively use keyboard presses rather
-than button presses to allow for easier integration with [Voice Attack][]
+than button presses to allow for easier integration with [Voice Attack][].
+
+Multi-crew and Fighter orders haven't been tested as yet as I don't have access
+to either.
+
+For some reason in DSS mode the game won't let you use the standard panel binds,
+even though they don't do anything. As a result exit DSS requires the shift 
+(pinky) button on the stick to be pressed along with the hat button.
 
 ## Caveat Emptor
 
