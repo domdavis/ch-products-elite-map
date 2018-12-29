@@ -1,5 +1,11 @@
 ## Changelog
 
+### Version 3.1.0
+
+  * Use different keybindings to avoid clashes on concurrent button presses
+  * Add playlist controls in place of screen shot controls.
+  * Provided a link for donations (one can always dream ;) )
+
 ### Version 3.0.0
 
 Complete rebuild of the map from the ground up.
@@ -15,7 +21,9 @@ Complete rebuild of the map from the ground up.
 
 ### Version 2.1.0
 
-This change simply adds the _redux_ version of the map. No changes have been made to the _full_ map other than the location of the files and some fixes to the description.
+This change simply adds the _redux_ version of the map. No changes have been
+made to the _full_ map other than the location of the files and some fixes to
+the description.
 
 ### Version 2.0.0
 
@@ -69,7 +77,8 @@ Improvements for the Gamma release:
   * Replaced binding to the `ESC` key to the provided `UI Back` control
   * Bound _Galaxy Map_ to a button
   * Bound _Use Shield Cell_ and _Fire Chaff_ to buttons. _Fire Chaff_ replaces 
-    _Fire Heat Sync_ on the `Stick` and now lives with  _Use Shield Cell_ on the `Throttle`
+    _Fire Heat Sync_ on the `Stick` and now lives with  _Use Shield Cell_ on the
+     `Throttle`
   * Minor tweaks to axis direction in the _Galaxy Map_
   * Minor tweaks to the way headlook works with the mouse and bindings
   * Added changelog :)
