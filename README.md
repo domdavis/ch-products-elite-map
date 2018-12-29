@@ -3,6 +3,12 @@
 Joystick maps and game configuration files for the [CH Products][]
 [Fighterstick][] and [Pro Throttle][] HOTAS in [Elite: Dangerous][].
 
+## Known Issues
+
+There's a problem with the way key presses are sent with this map that means
+that "button mashing", especially during combat, can cause unexpected actions
+to fire. An update will be released in the next day or two to fix this.
+
 ## About
 
 This map is my own personal configuration that I've put together while playing
