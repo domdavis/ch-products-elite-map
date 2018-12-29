@@ -1,13 +1,9 @@
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/idomdavis)
+
 # CH Products Joystick Map for Elite: Dangerous
 
 Joystick maps and game configuration files for the [CH Products][]
 [Fighterstick][] and [Pro Throttle][] HOTAS in [Elite: Dangerous][].
-
-## Known Issues
-
-There's a problem with the way key presses are sent with this map that means
-that "button mashing", especially during combat, can cause unexpected actions
-to fire. An update will be released in the next day or two to fix this.
 
 ## About
 
@@ -92,11 +88,6 @@ relating to [Elite: Dangerous][]. If you see me in game, say "Hi".
 
 ## Misc
 
-The stick and throttle images used in the layout guide were commissioned by me.
-Feel free to use and edit them for _personal_ use. If you're going to publish
-the result please link back to this repository. You'll need to contact me if you
-want to use the images commercially.
-
 The map has been completely rebuilt to exclusively use keyboard presses rather
 than button presses to allow for easier integration with [Voice Attack][].
 
@@ -106,6 +97,14 @@ to either.
 For some reason in DSS mode the game won't let you use the standard panel binds,
 even though they don't do anything. As a result exit DSS requires the shift 
 (pinky) button on the stick to be pressed along with the hat button.
+
+The stick and throttle images used in the layout guide were commissioned by me.
+Feel free to use and edit them for _personal_ use. If you're going to publish
+the result please link back to this repository. You'll need to contact me if you
+want to use the images commercially. If you find this map, or the layout 
+diagrams useful then please feel free to buy me a coffee:
+
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.me/idomdavis)
 
 ## Caveat Emptor
 
