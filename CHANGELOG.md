@@ -1,5 +1,10 @@
 ## Changelog
 
+### Version 3.1.1
+
+  * Fix inverted axis on turret and roll for SRV
+  * Add FAQ
+
 ### Version 3.1.0
 
   * Use different keybindings to avoid clashes on concurrent button presses
